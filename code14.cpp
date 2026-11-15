@@ -7,7 +7,7 @@ int main() {
     cout<<(a & b)<<endl;  // end  operator 
     cout<<(a|b)<<endl;   // or operator
     cout<<(a^b)<<endl; // xor operator
+
     
-    
-     return 0; 
+     return 0;
 }
