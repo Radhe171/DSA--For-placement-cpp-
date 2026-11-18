@@ -3,6 +3,7 @@ using namespace std;
 
 int main() {
      int size;
+     int index=-1;
      cout<<"enter the size of array :-"<<endl;
      cin>>size;
      int NUMs[size];
@@ -14,8 +15,10 @@ int main() {
      for( int i=0;i<size;i++ ){
         if(NUMs[i]>largest){
             largest=NUMs[i];
+            index =i;
+
         }
      }
-     cout<<"largest number is := "<<largest<<endl;
+     cout<<"largest number is := "<<largest<<" on index  "<< index<<endl;
     return 0;
 }
