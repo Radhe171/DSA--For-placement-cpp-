@@ -2,6 +2,8 @@
 using namespace std;
 
 int main() {
+   int index=-1;
+
      int size;
      cout<<"enter the size of array"<<endl;
      cin>>size;
@@ -14,8 +16,10 @@ int main() {
      for( int i=0;i<size;i++ ){
         if(NUMs[i]<smallest){
             smallest=NUMs[i];
+            index=i;
+
         }
      }
-     cout<<"smallest number is "<<smallest<<endl;
+     cout<<"smallest number is "<<smallest<<"  on index "<<index<<endl;
     return 0;
 }
