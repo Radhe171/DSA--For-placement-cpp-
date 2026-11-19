@@ -14,6 +14,7 @@ int main() {
         cout << rev[k] << " ";
     }
     cout << endl;
+    
 
     return 0;
-}
+} 
